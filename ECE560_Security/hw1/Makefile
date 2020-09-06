@@ -5,5 +5,5 @@ all: $(TARGETS)
 clean:
 	rm -f $(TARGETS) *~
 
-player: player.cpp
+getbanner: getbanner.cpp
 	g++ -g -o $@ $<
