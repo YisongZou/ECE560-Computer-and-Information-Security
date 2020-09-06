@@ -6,7 +6,7 @@
 using namespace std;
 int main(int argc, char *argv[]) {
   if (argc != 3) {
-    cout << "Syntax: ./getbanner <hostname> <port_num>\n" << endl;
+    cout << "Syntax: ./getbanner <hostname> <port_num>" << endl;
     return 1;
   }
   int status;
