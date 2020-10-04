@@ -1,0 +1,7 @@
+target.colab.duke.edu
+96.30.196.58
+139.180.157.201
+davros.egr.duke.edu
+esa06.egr.duke.edu
+storemaster.egr.duke.edu
+t-kali.colab.duke.edu
