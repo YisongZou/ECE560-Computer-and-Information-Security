@@ -1,0 +1,5 @@
+#! /bin/bash
+for varible1 in {16000..16100}
+do
+    fping -i 1000 vcm-$varible1.vm.duke.edu 2>&1 | sed 's/is alive/ok/g; s/is unreachable/down/g; s/: Name or service not known/ down/g'
+done
