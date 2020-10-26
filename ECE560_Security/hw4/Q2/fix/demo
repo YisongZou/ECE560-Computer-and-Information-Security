@@ -1,0 +1,15 @@
+#!/bin/bash
+make
+
+echo -e "\e[32;7m== NORMAL RUN ==\e[m"
+echo "Normal Person" | ./vuln1
+echo -e "\n\e[33mThe exit code was $?\e[m"
+
+echo
+echo
+
+echo -e "\e[31;7m== ATTACK RUN ==\e[m"
+./vuln1 < attack.bin
+echo -e "\n\e[33mThe exit code was $?\e[m"
+
+echo
